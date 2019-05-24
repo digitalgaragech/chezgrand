@@ -1,0 +1,75 @@
+/*
+Theme Name: Writepress Child
+Description: The clean minimal and easy to use WordPress theme suitable for all types of blog sites. It comes with powerful admin panel and easy to use Drag n Drop Visual Composer bundled with the theme. There are 6 different single post layout so suit all sorts of blogging requirements, 5 + blog carousel and 15 + different blog designs like masonry, grid, small, medium, large, checkered blog, parallax, full screen, and many more.
+Author: Writepress Themes
+Theme URI: http://wpblogtheme.org/demo/writepress/
+Author URI: http://wpblogtheme.org/demo/writepress/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: writepress
+Template: writepress
+*/
+
+
+
+
+.post_layout_recette .size-fullwidthBanner {
+	width: 100%;
+}
+.post_layout_recette .post_list_thumb--empty{
+	margin-top: 0;
+}
+#header{
+   margin: 0 auto;
+}
+
+.post_slider_caption{ top: 80% !important;
+}
+
+.mc4wp-form-fields input[type="email"]{background-color: #eeeeee;border: 0 none;border-radius: 0;height: 45px;width: 100%;padding: 10px;}
+.mc4wp-form-fields input[type="submit"]{ border: 2px solid #723f5f; border-radius: 0;font-weight: bold; height: 45px; margin-top: 15px;width: 100%; background-color:#723f5f;}
+.mc4wp-form-fields input[type="submit"]:hover{ background-color:transparent; color:#723f5f;}
+
+
+.header_section_two .zolo-navigation ul li.zolo-middle-logo-menu-logo, .header_section_two {
+    min-height: 200px;
+}
+
+.share-box .at-resp-share-element .at-share-btn{
+    border:1px solid #ccc;
+}
+.share-box h4{
+    width:50%;
+}
+.share-box .addthis_inline_share_toolbox{
+    width:50%;
+    float:left;
+    clear:none !important;
+    text-align:right;
+}
+.preptricks div{
+    display:inline-block;
+	margin: 20px 20px 20px 0;
+}
+
+.blog_column_3 .zolo_zilla_likes_box{
+	left: auto;
+}
+
+.comment-form [for="author"], .comment-form [for="email"], .comment-form [for="url"], .comment-form [for="comment"] {
+	width: 100%;
+}
+
+
+@media print {
+	.share-box,
+	.zolo_footer_area,
+	.zolo_post_tags,
+	.post-navigation{
+		display: none;
+	}
+	
+	
+}
+
